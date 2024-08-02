@@ -1,0 +1,41 @@
+.summaryCard {
+    background-color: var(--card-color) !important;
+    border-radius: 1rem !important;
+    overflow: hidden !important;
+    border: none !important;
+    padding: 1.5rem;
+    margin: auto;
+    margin-top: 2.5rem !important;
+    max-width: 100%;
+}
+
+.paymentButton {
+    background-color: var(--button-color) !important;
+    color: var(--button-text-color) !important;
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    border: none !important;
+}
+
+.title {
+    font-family: var(--font-inter);
+    font-weight: 600;
+    color: var(--font-color);
+    font-size: 1.25rem;
+    margin-bottom: 2rem !important;
+}
+
+.text {
+    font-family: var(--font-inter);
+    font-weight: 400;
+    color: var(--font-color);
+    font-size: 1rem;
+}
+
+.total {
+    font-family: var(--font-inter);
+    font-weight: 600;
+    color: var(--font-color);
+    font-size: 1rem;
+}

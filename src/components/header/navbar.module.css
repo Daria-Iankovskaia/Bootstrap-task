@@ -1,0 +1,21 @@
+.linkItem {
+    margin-right: 1rem;
+    padding: 14px 23px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.linkItem:hover {
+    background-color: var(--button-color) !important;
+    color: var(--button-text-color) !important;
+}
+
+.linkBasket {
+    margin-right: 2rem;
+}
+
+@media (max-width: 576px) {
+    .linkItem {
+        padding: 10px 16px;
+        font-size: 0.875rem;
+    }
+}

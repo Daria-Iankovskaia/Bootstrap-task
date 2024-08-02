@@ -1,0 +1,29 @@
+.mainText {
+    font-size: 4rem;
+    font-family: var(--font-newsreader);
+    font-weight: 400; 
+}
+
+.italicText {
+    font-family: var(--font-newsreader);
+    font-weight: 300;
+    font-style: italic; 
+}
+
+.textButtonContainre {
+    max-width: 1020px;
+    margin-top: 10.4rem;
+}
+
+.browseTheShop {
+    font-family: var(--font-inter);
+    font-size: 1.25rem;
+    font-weight: 600;
+    width: 227px;
+    height: 64px;
+    color: var(--button-text-color);
+    background: var(--button-color);
+    border-radius: 8px;
+    border: none;
+    margin-top: 3rem;
+}
