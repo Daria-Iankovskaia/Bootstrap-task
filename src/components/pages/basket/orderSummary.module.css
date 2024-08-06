@@ -9,21 +9,21 @@
     max-width: 100%;
 }
 
-.paymentButton {
-    background-color: var(--button-color) !important;
-    color: var(--button-text-color) !important;
+.summaryCard .paymentButton {
+    background-color: var(--button-color);
+    color: var(--button-text-color);
     width: 100%;
     border-radius: 0.5rem;
     margin-top: 1rem;
-    border: none !important;
+    border: none;
 }
 
-.title {
+.summaryCard .title {
     font-family: var(--font-inter);
     font-weight: 600;
     color: var(--font-color);
     font-size: 1.25rem;
-    margin-bottom: 2rem !important;
+    margin-bottom: 2rem;
 }
 
 .text {

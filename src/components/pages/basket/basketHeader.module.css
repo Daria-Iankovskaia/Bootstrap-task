@@ -4,10 +4,10 @@
     border-bottom: 2px solid var(--card-color);
 }
 
-h1 {
+.container .contentHolder h1 {
     font-family: var(--font-newsreader);
     font-weight: 400;
-    font-size: 4rem !important;
+    font-size: 4rem;
     color: var(--font-color);
 }
 

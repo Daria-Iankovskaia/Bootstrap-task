@@ -8,38 +8,34 @@
     height: 160px !important;
 }
 
-.cardImg {
-    width: 160px !important;
-    height: 160px !important;
-    object-fit: cover !important;
-    object-position: center !important;
-    border-top-left-radius: 2rem !important;
-    border-bottom-left-radius: 2rem !important;
+.cardBody .cardImg {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    object-position: center;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
 }
 
 .card-title {
     margin-bottom: 0.5rem;
 }
 
-.title,
+.cardBody .title,
 .price,
 .priceGreen {
-    font-family: var(--font-inter) !important;
-    font-weight: 600 !important;
-    font-size: 1.25rem !important;
+    font-family: var(--font-inter);
+    font-weight: 600;
+    font-size: 1.25rem;
 }
 
-.price {
+.cardBody .price {
     margin-right: 1.7rem;
     margin-top: 1.2rem;
 }
 
-.priceGreen {
-    color: var(--button-color) !important;
-    margin-bottom: 0.5rem;
-}
-
-.card-text {
+.cardBody .priceGreen {
+    color: var(--button-color);
     margin-bottom: 0.5rem;
 }
 
@@ -47,12 +43,12 @@
     align-self: flex-start;
 }
 
-.buttonLb {
-    background-color: var(--button-color) !important;
-    color: var(--button-text-color) !important;
-    padding: 5px 30px !important;
+.cardBody .buttonLb {
+    background-color: var(--button-color);
+    color: var(--button-text-color);
+    padding: 5px 30px;
     text-align: center;
-    margin-top: 0.5rem !important;
-    border: none !important;
+    margin-top: 0.5rem;
+    border: none;
     margin-left: 1.3rem;
 }
